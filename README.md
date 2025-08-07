@@ -1,4 +1,4 @@
-## Привет, я Наталия Тарасова! 👋
+## Привет! Я Наталия Тарасова 👋
 
 <!--
 **Dia-no-Ace/Dia-no-Ace** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
