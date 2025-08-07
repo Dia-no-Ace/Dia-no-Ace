@@ -6,6 +6,8 @@
 
 ### Languages and tools
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" />
+
 <!--
 **Dia-no-Ace/Dia-no-Ace** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
