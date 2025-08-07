@@ -2,6 +2,9 @@
 
 - Занимаюсь инженерией данных
 - Готова к сотрудничеству
+*********
+
+### Languages and tools
 
 <!--
 **Dia-no-Ace/Dia-no-Ace** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
