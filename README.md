@@ -67,8 +67,9 @@ flowchart LR
 
 ********
 ### Contacts
-Telegram: @AceOfDaimond
-Email: Nataly.verba90@gmail.com
+
+- Telegram: @AceOfDaimond
+- Email: Nataly.verba90@gmail.com
 
 
 
