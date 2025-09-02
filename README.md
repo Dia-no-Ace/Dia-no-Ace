@@ -27,13 +27,36 @@ title="js" width="60" height="60" />&nbsp;
 ***********
 
 
-### 🔄 ETL Пайплайн (визуализация)
+### 🔄 ETL Pipeline example
 ```mermaid
-flowchart LR
-    A[📥 Источник данных: CSV / API] --> B[⚙️ Трансформация: Python / Pandas / Spark]
+flowchart TD
+    %% Источники данных
+    A[📥 Источник данных: CSV / JSON / API] --> B[⚙️ Трансформация данных]
+    
+    %% Трансформация
     B --> C[🧹 Очистка и нормализация данных]
-    C --> D[💾 Загрузка: PostgreSQL / MySQL]
-    D --> E[📊 Анализ и визуализация: Jupyter / Matplotlib / Seaborn]
+    C --> D[🔄 Обогащение данных / агрегирование]
+    
+    %% Хранилище
+    D --> E[💾 Загрузка в базы данных: PostgreSQL / MySQL]
+    D --> F[☁️ Облачное хранилище: BigQuery / S3]
+
+    %% Анализ
+    E --> G[📊 Анализ и визуализация: Jupyter / Matplotlib / Seaborn]
+    F --> G
+
+    %% Стили
+    classDef source fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef transform fill:#ff9,stroke:#333,stroke-width:2px;
+    classDef storage fill:#9f9,stroke:#333,stroke-width:2px;
+    classDef analysis fill:#9ff,stroke:#333,stroke-width:2px;
+
+    class A source;
+    class B,C transform;
+    class D,E,F storage;
+    class G analysis;
+
+Эта диаграмма показывает типовой ETL-процесс, который я реализовывала в проектах.
           
           
 
