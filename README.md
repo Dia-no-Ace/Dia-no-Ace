@@ -27,9 +27,14 @@ title="js" width="60" height="60" />&nbsp;
 ***********
 
 
-### 📈 Статистика активности
+### 🔄 ETL Пайплайн (визуализация)
 
-![Dia-no-Ace GitHub stats](https://github-readme-stats.vercel.app/api?username=Dia-no-Ace&show_icons=true&theme=radical)
+```mermaid
+flowchart LR
+    A[📥 Источник данных: CSV / API] --> B[⚙️ Трансформация: Python / Pandas / Spark]
+    B --> C[🧹 Очистка и нормализация данных]
+    C --> D[💾 Загрузка: PostgreSQL / MySQL]
+    D --> E[📊 Анализ и визуализация: Jupyter / Superset / Metabase]
           
           
           
