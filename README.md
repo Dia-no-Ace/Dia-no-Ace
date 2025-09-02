@@ -1,6 +1,6 @@
 ## Привет! Я Наталия Тарасова 👋
 
-- Занимаюсь инженерией данных
+- Data Engineer, превращаю сырые данные в структурированные и полезные ресурсы для аналитики и бизнеса
 - Готова к сотрудничеству
 *********
 
@@ -23,7 +23,13 @@ title="js" width="60" height="60" />&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" 
 title="js" width="60" height="60" />&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hadoop/hadoop-original-wordmark.svg" 
-title="js" width="60" height="60" />&nbsp;         
+title="js" width="60" height="60" />&nbsp;   
+***********
+
+
+### 📈 Статистика активности
+
+![Dia-no-Ace GitHub stats](https://github-readme-stats.vercel.app/api?username=Dia-no-Ace&show_icons=true&theme=radical)
           
           
           
