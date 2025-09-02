@@ -28,14 +28,12 @@ title="js" width="60" height="60" />&nbsp;
 
 
 ### 🔄 ETL Пайплайн (визуализация)
-
 ```mermaid
 flowchart LR
     A[📥 Источник данных: CSV / API] --> B[⚙️ Трансформация: Python / Pandas / Spark]
     B --> C[🧹 Очистка и нормализация данных]
     C --> D[💾 Загрузка: PostgreSQL / MySQL]
-    D --> E[📊 Анализ и визуализация: Jupyter / Superset / Metabase]
-          
+    D --> E[📊 Анализ и визуализация: Jupyter / Matplotlib / Seaborn]
           
           
 
