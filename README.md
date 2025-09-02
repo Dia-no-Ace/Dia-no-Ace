@@ -29,33 +29,32 @@ title="js" width="60" height="60" />&nbsp;
 ```mermaid
 flowchart LR
     %% Источники данных
-    A[📥 Источник данных: CSV / JSON / API] --> B[⚙️ Трансформация данных]
+    A[📥 Источник данных: CSV / JSON / API] --> B[☁️ Загрузка в облачное хранилище (S3)]
     
     %% Трансформация
     B --> C[🧹 Очистка и нормализация данных]
     C --> D[🔄 Обогащение данных / агрегирование]
     
     %% Хранилище
-    D --> E[💾 Загрузка в базы данных: PostgreSQL / MySQL]
-    D --> F[☁️ Облачное хранилище: BigQuery / S3]
-
-    %% Анализ
-    E --> G[📊 Анализ и визуализация: Jupyter / Matplotlib / Seaborn]
-    F --> G
+    D --> E[💾 Загрузка в базы данных: PostgreSQL]
+    E --> F[🏗️ Построение аналитических витрин (ClickHouse, Greenplum)]
+    
+    %% Анализ и визуализация
+    F --> G[📊 Визуализация: Superset / Metabase]
 
     %% Стили
     classDef source fill:#f9f,stroke:#333,stroke-width:2px;
     classDef transform fill:#ff9,stroke:#333,stroke-width:2px;
     classDef storage fill:#9f9,stroke:#333,stroke-width:2px;
-    classDef analysis fill:#9ff,stroke:#333,stroke-width:2px;
+    classDef analytics fill:#9ff,stroke:#333,stroke-width:2px;
 
-    class A source;
-    class B,C transform;
-    class D,E,F storage;
-    class G analysis;
-```
+    class A,B source;
+    class C,D transform;
+    class E,F storage;
+    class G analytics;
 
-Эта диаграмма показывает стандартный ETL-процесс.
+
+Данная диаграмма показывает типовой ETL-процесс, реализованный мной в проектах.
 
 
 ********
