@@ -52,7 +52,7 @@ flowchart LR
     class C,D transform;
     class E,F storage;
     class G analytics;
-
+```
 
 Данная диаграмма показывает типовой ETL-процесс, реализованный мной в проектах.
 
